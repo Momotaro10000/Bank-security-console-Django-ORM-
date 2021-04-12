@@ -13,15 +13,17 @@ remote database.
 
 You may politely ask for keys:3 Keys look like numbers and letters, should be put in settings.py file.
 
-"""'USER' : 'frog'"""
-"""'PASSWORD' : 'myeyesareweird'"""
+```
+USER = "frog"
+PASSWORD = "myeyesareweird"
+```
 
 Python3 should be already installed. Then use pip (or pip3, if there is a conflict with Python2) 
 to install dependencies:
 
-"""
+```
 pip install -r requirements.txt
-"""
+```
 
 ### Project Goals 
 
