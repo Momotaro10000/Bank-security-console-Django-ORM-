@@ -8,15 +8,20 @@ however, you can use coding templates freely or look up how database requests ar
 Bank security console is a website which can be connected to the visits and our staff passcards 
 remote database.
 
-### How to install
+## How to install
 
 
+You may politely ask for keys:3 Keys look like numbers and letters, should be put in settings.py file.
 
+"""'USER' : 'frog'"""
+"""'PASSWORD' : 'myeyesareweird'"""
 
 Python3 should be already installed. Then use pip (or pip3, if there is a conflict with Python2) 
 to install dependencies:
 
+"""
 pip install -r requirements.txt
+"""
 
 ### Project Goals 
 
