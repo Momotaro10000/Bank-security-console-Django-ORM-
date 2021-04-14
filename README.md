@@ -8,12 +8,12 @@ however, you can use coding templates freely or look up how database requests ar
 Bank security console is a website which can be connected to the visits and our staff passcards 
 remote database.
 
-## How to install
+### How to install
 
 
 You may politely ask for keys:3 Keys look like numbers and letters, should be put in settings.py file.
 
-```
+```python
 USER = "frog"
 PASSWORD = "myeyesareweird"
 ```
