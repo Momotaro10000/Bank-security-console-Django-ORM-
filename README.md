@@ -11,14 +11,21 @@ remote database.
 ### How to install
 
 
+You may politely ask for keys:3 Keys look like numbers and letters, should be put in settings.py file.
 
+```python
+USER = "frog"
+PASSWORD = "myeyesareweird"
+```
 
-Python3 should be already installed. Then use pip (or pip3, if there is a conflict with Python2) 
+[Python3](https://www.python.org/downloads/) should be already installed. Then use [pip](https://pypi.org/project/pip/) (or pip3, if there is a conflict with Python2) 
 to install dependencies:
 
+```
 pip install -r requirements.txt
+```
 
 ### Project Goals 
 
 
-The code is written for educational purposes on online-course for web-developers dvmn.org. 
+The code is written for educational purposes on online-course for web-developers [dvmn.org](https://dvmn.org/). 
