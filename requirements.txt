@@ -1,3 +1,0 @@
-django==1.11.*
-psycopg2-binary==2.8.*
-environs=9.3.2
