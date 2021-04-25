@@ -12,6 +12,7 @@ _Script runs local web server interacting with remote database._
 
 
 
+
 ### How to install
 
 
@@ -60,33 +61,6 @@ pipenv shell
 
 
 
-### How to run the script
-
-
-For the web site working locally you should assign environmental variables. [environs](https://pypi.org/project/environs/) library and .env file will help.
-
-Create .env text file in project folder and fill like this:
-
-```
-HOST='hostname' # name of the database node
-PORT='5434' # port number
-DB_NAME='databasename' # name of the database
-ORM_USER='username' # user name
-PASSWORD='userpassword' # user password
-SECRED_KEY='REPLACE_ME' # secret key
-DEBUG=True # debug-status (True or False depends on your purposes, case doesn't relevant)
-```
-
-Run the script though the terminal.
-
-In active vertual environment run:
-
-```
-python manage.py runserver 
-```
-
-
-
 ### How to run the script?
 
 
@@ -104,12 +78,12 @@ SECRED_KEY='REPLACE_ME' # secret key
 DEBUG=True # debug-status (True or False depends on your purposes, case doesn't relevant)
 ```
 
-Run the script though the terminal.
+Run the script through the terminal.
 
 In active vertual environment run:
 
 ```
-python manage.py runserver 127.0.0.1:8000
+python manage.py runserver 
 ```
 
 Test version of the web site will be available [here](http://127.0.0.1:8000/).
